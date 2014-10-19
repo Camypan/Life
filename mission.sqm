@@ -1,1 +1,353 @@
-A faire
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"bornholm",
+		"A3_Characters_F_Civil",
+		"a3_characters_f"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Civil",
+		"a3_characters_f",
+		"bornholm"
+	};
+	randomSeed=2185260;
+	class Intel
+	{
+	    briefingName="Bornholm Life";
+		overviewText="Version 0.1";
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+	class Groups
+	{
+		items=10;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19205.588,3.1891947,22377.906};
+					special="NONE";
+					id=0;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_1";
+					description="Civil - 1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19206.549,3.1670485,22377.906};
+					special="NONE";
+					id=1;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_2";
+					description="Civil - 2";
+				};
+			};
+		};
+		class Item2
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19207.504,3.1819825,22377.887};
+					special="NONE";
+					id=2;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_3";
+					description="Civil - 3";
+				};
+			};
+		};
+		class Item3
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19208.469,3.1716504,22377.863};
+					special="NONE";
+					id=3;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_4";
+					description="Civil - 4";
+				};
+			};
+		};
+		class Item4
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19209.379,3.1548705,22377.865};
+					special="NONE";
+					id=4;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_5";
+					description="Civil - 5";
+				};
+			};
+		};
+		class Item5
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19210.334,3.1445508,22377.824};
+					special="NONE";
+					id=5;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_6";
+					description="Civil - 6";
+				};
+			};
+		};
+		class Item6
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19211.303,3.1305566,22377.803};
+					special="NONE";
+					id=6;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_7";
+					description="Civil - 7";
+				};
+			};
+		};
+		class Item7
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19212.279,3.1235864,22377.822};
+					special="NONE";
+					id=7;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_8";
+					description="Civil - 8";
+				};
+			};
+		};
+		class Item8
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19213.207,3.123286,22377.826};
+					special="NONE";
+					id=8;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_9";
+					description="Civil - 9";
+				};
+			};
+		};
+		class Item9
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={19214.145,3.130537,22377.846};
+					special="NONE";
+					id=9;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="civ_10";
+					description="Civil - 10";
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"bornholm"
+	};
+	addOnsAuto[]=
+	{
+		"bornholm"
+	};
+	randomSeed=12665162;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"bornholm"
+	};
+	addOnsAuto[]=
+	{
+		"bornholm"
+	};
+	randomSeed=8913210;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"bornholm"
+	};
+	addOnsAuto[]=
+	{
+		"bornholm"
+	};
+	randomSeed=13032169;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+};
